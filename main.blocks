@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="gvl(kB+zbXClH;5e]z=I">myImage</variable></variables><block type="device_button_event" id="i?8oS}4`s-UaKf78@8R-" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="6:iqp^oS3JVm/L2x?wEB"><field name="i">IconNames.Rollerskate</field></block></statement></block><block type="device_gesture_event" id="BpwJ+A]4(5LB%SFM#z)y" x="548" y="44"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="playMelody" id="z-xd0)7:i5rrqtPof8q,"><value name="melody"><shadow type="melody_editor" id="Hv+rDf!-M==@_y:BaJ_t"><field name="melody">"C5 B C5 A C5 B C5 A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="z=5eMg9I[X=GV?}a*Ze7"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></statement></block><block type="device_build_image" id="8.R3rhG`uMy*Sdhl];zF" disabled="true" x="732" y="203"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field></block><block type="device_pin_event" id="z2LR1C!(JQ|dcJMY~5yd" x="392" y="252"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="basic_show_icon" id="KL8z,*+,xqDVz)pq%ewr"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_button_event" id="O0P-B$x~44*2jAOTLgQu" x="57" y="270"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="Q4D=}x6$JVg)Y0`a#f@U"><field name="this">soundExpression.hello</field></block></statement></block><block type="device_button_event" id="J+@.}6+VCDlvPo^$Y]Vt" x="1130" y="226"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_clear_display" id="Jh++TG$$u8TBFfd?o$u5"/></statement></block><block type="input_logo_event" id="4Upk!7(*JG1*uc$wz[i|" x="63" y="445"><field name="action">TouchButtonEvent.Touched</field><statement name="HANDLER"><block type="basic_show_icon" id="!8@Dtybmf1?L-8]8R%Ai"><field name="i">IconNames.StickFigure</field></block></statement></block><block type="device_pin_event" id="de`0ej!wJfVZJEnh58iE" x="395" y="440"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="basic_show_icon" id="XQ/2Z%5I-e9%6hK25oPc"><field name="i">IconNames.Duck</field></block></statement></block><block type="device_build_image" id="N@a/YIylbkTcZY0MR?]*" disabled="true" x="840" y="488"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # # . . . 
+        # . # . . 
+        # # # . .
+        `</field></block><block type="device_build_image" id="VSM=dn=4g7{nw${PT1aw" disabled="true" x="551" y="596"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field></block><block type="device_pin_event" id="PufPLkr2_]/p3{C3dY.W" x="169" y="674"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="basic_show_icon" id="#9UHAup,A*_Tj.rQ2xbY"><field name="i">IconNames.Happy</field></block></statement></block></xml>
